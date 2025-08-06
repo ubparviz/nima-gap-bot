@@ -1,0 +1,13 @@
+{
+    "users": {
+        "chat_id": {
+            "name": "",
+            "gender": "",
+            "location": {
+                "longatute": 0.0,
+                "latetute": 0.0
+            },
+            "number": ""
+        }
+    }
+}
