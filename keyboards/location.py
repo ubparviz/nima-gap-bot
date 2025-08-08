@@ -4,14 +4,8 @@ from telegram import (
 
 
 def get_location_keyboard() -> ReplyKeyboardMarkup:
-    keyboard = [
-        [
-            KeyboardButton(text="Location", request_location=True)
-        ]
-    ]
-    return ReplyKeyboardMarkup(
-        keyboard,
-        resize_keyboard=True,
-        one_time_keyboard=True,
-    )
+    keyboard = [[
+        KeyboardButton(text="📍 Joylashuvni yuborish", request_location=True)
+    ]]
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
 

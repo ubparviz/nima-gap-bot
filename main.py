@@ -1,3 +1,4 @@
+
 from config import config
 from config import states
 from telegram.ext import (
@@ -7,12 +8,14 @@ from telegram.ext import (
     MessageHandler,
     Filters,
 )
+
 from handlers.start import start
 from handlers.cancel import cancel
 from handlers.register import start_register, set_name, set_gender, set_location, set_number
 
 
 def main() -> None:
+    print("Bot ishga tushdi...")
     updater = Updater(config.TOKEN)
 
     dispatcher = updater.dispatcher

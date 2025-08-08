@@ -1,13 +1,13 @@
 {
     "users": {
-        "chat_id": {
-            "name": "",
-            "gender": "",
+        "1516873931": {
+            "name": "Ali Valiyev",
+            "gender": "Erkak",
             "location": {
-                "longatute": 0.0,
-                "latetute": 0.0
+                "longitude": 66.986293,
+                "latitude": 39.621706
             },
-            "number": ""
+            "number": "+15743309861"
         }
     }
 }

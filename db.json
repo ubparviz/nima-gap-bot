@@ -1,0 +1,13 @@
+{
+    "users": {
+        "12345": {
+            "name": "John Doe",
+            "gender": "",
+            "location": {
+                "longatute": 0.0,
+                "latetute": 0.0
+            },
+            "number": ""
+        }
+    }
+}

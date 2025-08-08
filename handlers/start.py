@@ -8,7 +8,7 @@ def start(update: Update, context: CallbackContext):
     user = update.effective_user
 
     update.message.reply_html(
-        text=f"Assalomu Alaykum <b>{user.full_name}</b>! Nima Gap Botga hush kelibsiz.",
+        text=f"Assalomu Alaykum <b>{user.full_name}</b>! Buyurtmachi botga hush kelibsiz.",
     )
 
     update.message.reply_text(

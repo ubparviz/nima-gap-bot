@@ -4,13 +4,8 @@ from telegram import (
 
 
 def get_contact_keyboard() -> ReplyKeyboardMarkup:
-    keyboard = [
-        [
-            KeyboardButton(text="Contact", request_contact=True)
-        ]
-    ]
-    return ReplyKeyboardMarkup(
-        keyboard,
-        resize_keyboard=True,
-        one_time_keyboard=True,
-    )
+    keyboard = [[
+        KeyboardButton(text="📞 Raqamni yuborish", request_contact=True)
+    ]]
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
+
